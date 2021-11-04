@@ -20,6 +20,9 @@ In addition to that, we also provide additional free recipes and cooking classes
 * Online cooking classes you can enroll with professional chefs.
 * Delivery options for your convenience.
 
+## Target Users :
+Home cooks of every age, striving to learn and cook simple, nutritious, and tasty meals at home.
+
 ## Benefits of Chef's Apron :
 * More time efficient in planning, shopping, cooking, and cleaning.
 * Pre-measured ingredients help prevent food waste.
