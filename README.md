@@ -45,6 +45,8 @@ Home cooks of every age, striving to learn and cook simple, nutritious, and tast
 
 ## Logo
 ![CA_logo](https://cdn.discordapp.com/attachments/794551109523341353/905837658633273344/GreenLeafs_1.png)
+
+#### Key Colors :
 * Green (#2F6947) : New beginnings, Abundance, Nature
 * Cream (#C6BCB3) : Pleasantness or satisfaction
 * Brown (#625D58) : Nature, wholesomeness, dependability
