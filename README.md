@@ -1,4 +1,6 @@
-# Chef's Apron
+<h1 align="center">Chef's Apron</h1> 
+
+#
 * Class name : L1AC
 * Course : Human Computer Interaction (COMP6800001) - Final Project
 * Team : Chips and Dips
