@@ -1,3 +1,4 @@
 This is the update log for Chips And Dips' final HCI Project.
 Below are entries of our website's development:
+
 1. 29 December 2021 - Maria Clarin - uploaded new images, finished the landing page (index.html), created website templates for other files
