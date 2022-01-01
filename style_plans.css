@@ -46,6 +46,7 @@ header{
 .mainsection {
     background-color: #F8F8F8;
     border: 50px solid #C6BCB3;
+    align-content: center;
 }
 
 .progressbar {
@@ -219,6 +220,7 @@ header{
     padding: 10px;
     padding-right: 40px;
     font-size: 20px;
+    height: 24px
 }
 
 .discountupgrade{
@@ -235,7 +237,7 @@ header{
     border-top-right-radius: 10px;
     padding: 10px;
     font-size: 20px;
-    height: 49px;
+    height: 50px;
     margin-top: 25px;
     background: white;
     color: #625D58;
@@ -243,6 +245,30 @@ header{
     font-style: bold;
 }
 
+.details{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #625D58;
+    margin-right:5px;
+    margin-top: 5px;
+    width: 150px;
+}
+
+.inputbox{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.inputinfo{
+    border: 2px solid #D5D5D5;
+    border-radius: 5px;
+    height: 25px;
+    width: 200px;
+}
+
+.forms{
+    justify-content: center;
+}
 
 .divider{
     width: 2px;
@@ -263,11 +289,32 @@ header{
     margin-left: -20px;
 }
 
+.ad3{
+    width: 500px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ad4{
+    width: 500px; 
+    margin-right: 20px;
+    margin-left: -20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thanks{
+    display: flex;
+    justify-content: center;
+}
+.thankscard{
+    width: 1000px;
+    margin-top: 40px;
+}
 .menurow{
     display: flex;
     justify-content: center;
 }
-
 .itemrow{
     width: 200px;
     border:2px solid #625D58;
@@ -298,6 +345,96 @@ header{
     background: #74AD55;
 }
 
+.paymentsection{
+    border: 3px solid #D5D5D5;
+    background:#F2F2F2;
+    width: 900px ;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.paymentcontainer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dividerline{
+    border-right: 3px solid #184B0A;
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.pickedrow1{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px;
+}
+
+.pickedrow2{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+.pickedtitle{
+    font-size: 30px;
+    text-align: center;
+    color:#163D2A;
+    font-family:'Quicksand', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.pickeditem{
+    background: #74AD55;
+    color:white ;
+    font-family:'Quicksand', sans-serif;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:none;
+    margin-left: 5px;
+    margin-right: 5px ;
+}
+.pricerow{
+    display: flex;
+    justify-content: left;
+    margin-bottom: -30px;
+}
+.pricelist{
+    font-size: 17px;
+    color:#163D2A;
+    font-family:'Quicksand', sans-serif;
+    width: 170px;
+}
+.totalrow{
+    display: flex;
+    justify-content: left;
+    margin-bottom: -30px;
+}
+.totallist{
+    font-size: 17px;
+    color:#163D2A;
+    font-family:'Quicksand', sans-serif;
+    width: 170px;
+    background: #D5D5D5;
+}
+.totalcost{
+    font-size: 17px;
+    color:#163D2A;
+    font-family:'Quicksand', sans-serif;
+    background: #D5D5D5;
+}
+.pricebox{
+    margin-top: 40px;
+}
+.pricing{
+    font-size: 17px;
+    color:#163D2A;
+    font-family:'Quicksand', sans-serif;
+
+}
 footer{
     clear: both;
     position: relative;
