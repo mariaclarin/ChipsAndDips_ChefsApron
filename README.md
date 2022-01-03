@@ -1,5 +1,5 @@
 <h1 align="center">Chef's Apron</h1> 
-## Live Link
+* Live Link
 https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 
 #
