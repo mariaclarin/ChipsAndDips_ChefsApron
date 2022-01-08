@@ -117,6 +117,29 @@ header{
 .radioinput:checked  + .select1{
     background: #A3C193 ;
 }
+.radioinput:checked  + .radiolabelpay{
+    background: #A3C193 ;
+}
+
+.radiopay{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.radiolabelpay{
+    color:#625D58;
+    font-size: 15px;
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+    cursor: pointer;
+    padding : 10px 10px;
+    border-radius: 20%;
+    background: #F8F8F8;
+    border:4px solid #D5D5D5;
+    margin-left: 10px;
+    margin-right: 5px;
+    transition : background 0.1s
+}
 
 .logo{
     width: 100px;
@@ -247,6 +270,7 @@ header{
     font-family:'Open Sans', sans-serif;
     margin-bottom: 40px;
 }
+
 
 .bottomsection{
     background-color: #F8F8F8;

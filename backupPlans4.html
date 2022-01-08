@@ -4,13 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef's Apron</title>
-    <link rel="stylesheet" href="style_plans.css">
+    <link rel="stylesheet" href="plans.css">
 </head>
 
 <body>
     <header>
         <img class="calogo" src="docs/logo.svg">
-
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -28,7 +27,39 @@
             <img src="docs/images/progressbar4.svg" alt="progress" class="progresspic">
         </div>
         <h3 class="selecttitle">Check Out</h3>
-        <h4 class="changeanytime">Complete your payment to confirm your order.</h4>
+        <h4 class="changeanytime">Pick a payment option and complete your payment to confirm your order.</h4>
+        <form action="">
+            <div class ="radiopay">
+                <input class ="radioinput" type="radio" name="dietpref" id = "master">
+                <label class ="radiolabelpay" for="master">
+                    <div class="displaybox">
+                        <img src="docs/images/mastercard.svg" alt="" class="logo">
+                        <div class="displayradtitle">Mastercard</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "visa">
+                <label class ="radiolabelpay" for="visa">
+                    <div class="displaybox">
+                        <img src="docs/images/visa.svg" alt="" class="logo">
+                        <div class="displayradtitle">Visa</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "qris">
+                <label class ="radiolabelpay" for="qris">
+                    <div class="displaybox">
+                        <img src="docs/images/qris.svg" alt="" class="logo">
+                        <div class="displayradtitle">Qris Scan</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "paypal">
+                <label class ="radiolabelpay" for="paypal">
+                    <div class="displaybox">
+                        <img src="docs/images/paypal.svg" alt="" class="logo">
+                        <div class="displayradtitle">Paypal</div>
+                    </div>
+                </label>
+            </div>
+        </form>
         <div class="paymentcontainer">
             <div class="paymentsection">
                 <div class="shoppingbox">

@@ -4,4 +4,4 @@ Below are entries of our website's development:
 1. 29 December 2021 - Maria Clarin - uploaded new images, drafted the landing page (index.html), created website templates for other files
 2. 30 December 2021 - Maria Clarin - uploaded new images, drafted the 1st and 2nd planning page (plans1.html, plans2.html, plans1.js, style_plans.css)
 3. 1 Jan 2022 - Maria Clarin - uploaded new images, drafted the 3rd-5th planning progress pages (plans3, plans4, plans5)
-4. 5 Jan 2022 - Maria Clarin - uploaded new images, debugged plans1.html (people can only choose 1 option for their preferences buttons (changed regular buttons to radio groups html css), except for the 'avoid me' section), created pages for scenario 2 (backupPlans1-4.html)
+4. 5 Jan 2022 - Maria Clarin - uploaded new images, debugged plans1.html (people can only choose 1 option for their preferences buttons (changed regular buttons to radio groups html css), except for the 'avoid me' section), created pages for scenario 2 (backupPlans1-4.html) (identical code to the plans1-4.html but for a different test case/scenario result).
