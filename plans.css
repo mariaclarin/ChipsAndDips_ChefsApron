@@ -1,10 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+.toplogos {
+    display: flex;
+    justify-content: center;
+}
 .calogo {
     width: 175px;
     margin-left: auto;
     margin-right: auto;
-    display: flex;
+    padding-left: 100px;
+}
+.logoprofile {
+    width: 50px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.logoprofile:hover {
+    box-shadow: 0 0 50px #184B0A;
 }
 
 .nav_list {
