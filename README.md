@@ -10,6 +10,25 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
   * Maria Clarin - 2501990331 
   * Jocelin Wilson - 2501990331
 
+## File Directory 
+* index.html : landing page/home page
+* style.css : css file for index.html
+* plans1.html : initial planning page for scenario A
+* backupPlans1.html : initial planning page for scenario B
+* plans2.html : second planning page (menu showcase) for scenario A
+* backupPlans2.html : second planning page (menu showcase) for scenario B
+* plans3.html : third planning page (registration) for scenario A
+* backupPlans3.html : third planning page (registration) for scenario B
+* plans4.html : fourth planning page (payment page) for scenario A
+* backupPlans4.html : fourth planning page (payment page) for scenario B
+* plans5.html : fifth planning page (thank you page) for scenario A and B
+* plans.css : css file for the entirity of the planning pages (plans1.html-plans5.html and backupPlans1.html-backupPlans4.html)
+* profile.html : profile page 
+* profile.css : css file for profile.html
+* recipes.html : recipe page
+* classes.html : classes page
+* about.html : about page
+
 ## Description
 Chef's Apron is a meal kit subscription service that delivers pre-measured fresh ingredients and easy-to-follow recipes so everyone can prepare chef-crafted meals from the comfort of their own kitchens.
 Our meal kits will not only feed people good meals, but also allow the process of learning how to cook with confidence and learn various dishes according to your diet, till cooking becomes second nature.
