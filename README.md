@@ -23,8 +23,16 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 * backupPlans4.html : fourth planning page (payment page) for scenario B
 * plans5.html : fifth planning page (thank you page) for scenario A and B
 * plans.css : css file for the entirity of the planning pages (plans1.html-plans5.html and backupPlans1.html-backupPlans4.html)
-* profile.html : profile page 
+* plans.js : javascript page for planning pages
+* profile1.html : initial profile page (account info)
+* profile2.html : second profile page (meal plan settings)
+* profile3.html : third profile page (notification settings)
+* profile4.html : fourth profile page (address book)
+* profileScenarioD1.html : first extended profile2.html page for scenario D (new plan initiation)
+* profileScenarioD2.html : second extended profile2.html page for scenario D (new plan settings)
+* profileScenarioD3.html : third extended profile2.html page for scenario D (new plan saved)
 * profile.css : css file for profile.html
+* profile.js : javascript file for profile pages
 * recipes.html : recipe page
 * classes.html : classes page
 * about.html : about page

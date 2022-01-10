@@ -8,3 +8,4 @@ Below are entries of our website's development:
 5. 8 Jan 2022 - Jocelin Wilson - uploaded the Recipe page (the images & stylesheet will be uploaded in soon)
 6. 8 Jan 2022 - Maria Clarin - uploaded new images, renamed the css file for planning pages from style_plans.css to plans.css, added payment options to the payment page (plans4.html and backupPlans4.html), added profile icon on everypage.
 7. 9 Jan 2022 - Maria Clarin - uploaded new images, drafted the main profile page (profile1.html and profile.css)
+8. 10 Jan 2022 - Maria Clarin - uploaded new images, drafed the entirity of the profile page(profile1.html, profile2.html, profile3.html, profile4.html, profile.css, profile.js), drafted extended profile page setup (scenario based) (profileScenarioD1.html, profileScenarioD2.html, profileScenarioD3.html)
