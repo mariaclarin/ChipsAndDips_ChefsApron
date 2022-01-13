@@ -34,7 +34,16 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 * profile.css : css file for profile.html
 * profile.js : javascript file for profile pages
 * recipes.html : recipe page
-* classes.html : classes page
+* style_recipes.css : css file for recipes.html
+* classes.html : initial class page and also advance levelled page
+* classes_beg.html : beginner levelled class page
+* classes_inter.html : intermediate levelled class page
+* classes_child.html : childe-friendly levelled class page
+* class_register.html : second class page to register
+* style_classes.css : css file for most of the classes page (classes.html, classes_beg.html, classes_inter.html, and classes_child.html)
+* class_payment.html : third class page for the payment for scenario C
+* class_final.html : fourth class page as the thank you page
+* style_classespay.css : css file for class_payment.html & style_classespay.css
 * about.html : about page
 * menu.html : weekly menu page accessible through the profile page
 
