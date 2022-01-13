@@ -36,6 +36,7 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 * recipes.html : recipe page
 * classes.html : classes page
 * about.html : about page
+* menu.html : weekly menu page accessible through the profile page
 
 ## Description
 Chef's Apron is a meal kit subscription service that delivers pre-measured fresh ingredients and easy-to-follow recipes so everyone can prepare chef-crafted meals from the comfort of their own kitchens.

@@ -56,12 +56,21 @@
 .promoimgs {
     width: 100%;
 }
+.aboutimgs {
+    width: 100%;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about{
+    background-color: #163D2A;
+}
 
 footer{
     clear: both;
     position: relative;
     height: 150px;
-    margin-top: 20px;
     background-color:#E8E0E0;
     font-family:'Work Sans', sans-serif;
     font-weight: bold;
