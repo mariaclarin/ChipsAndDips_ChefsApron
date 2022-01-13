@@ -322,3 +322,10 @@ footer{
 }
 
 
+.thankscard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height:433.44px
+}
