@@ -96,6 +96,19 @@ header{
     margin-bottom: 20px;
 }
 
+.foodname{
+    font-size: 18px;
+    text-align: center;
+    color:#163D2A;
+    font-family: 'Quicksand', sans-serif;
+    max-width: 200px;
+}
+
+.collumn1{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
 .radio{
     display: flex;
     justify-content: center;
@@ -241,6 +254,12 @@ header{
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 40px;
+}
+.prevbtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
     margin-bottom: 40px;
 }
 

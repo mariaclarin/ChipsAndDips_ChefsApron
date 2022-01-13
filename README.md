@@ -22,7 +22,7 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 * plans4.html : fourth planning page (payment page) for scenario A
 * backupPlans4.html : fourth planning page (payment page) for scenario B
 * plans5.html : fifth planning page (thank you page) for scenario A and B
-* plans.css : css file for the entirity of the planning pages (plans1.html-plans5.html and backupPlans1.html-backupPlans4.html)
+* plans.css : css file for the entirity of the planning pages (plans1.html-plans5.html and backupPlans1.html-backupPlans4.html) and menu pages (menu.html, menuPescatarian.html, menuVegan.html, menuRegular.html)
 * plans.js : javascript page for planning pages
 * profile1.html : initial profile page (account info)
 * profile2.html : second profile page (meal plan settings)
@@ -46,6 +46,9 @@ https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
 * style_classespay.css : css file for class_payment.html & style_classespay.css
 * about.html : about page
 * menu.html : weekly menu page accessible through the profile page
+* menuPescatarian.html : specific weekly menu page for pescatarian diet, accessible through the profile menu page
+* menuVegan.html : specific weekly menu page for vegan diet, accessible through planning page on nav bar after menu page
+* menuRegular.html : specific weekly menu page for regular diet, accessible through planning page from homepage after menu page
 
 ## Description
 Chef's Apron is a meal kit subscription service that delivers pre-measured fresh ingredients and easy-to-follow recipes so everyone can prepare chef-crafted meals from the comfort of their own kitchens.
