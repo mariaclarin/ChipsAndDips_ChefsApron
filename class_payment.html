@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chef's Apron</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style_classespay.css">
 </head>
 <body>
     <header>
@@ -25,8 +25,90 @@
         </div>
         <div class = "line"> </div>
     </header>
-    
-
+    <div class="mainsection">
+        <h3 class="selecttitle">Check Out</h3>
+        <h4 class="changeanytime">Pick a payment option and complete your payment to confirm your order.</h4>
+        <form action="">
+            <div class ="radiopay">
+                <input class ="radioinput" type="radio" name="dietpref" id = "master">
+                <label class ="radiolabelpay" for="master">
+                    <div class="displaybox">
+                        <img src="docs/images/mastercard.svg" alt="" class="logo">
+                        <div class="displayradtitle">Mastercard</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "visa">
+                <label class ="radiolabelpay" for="visa">
+                    <div class="displaybox">
+                        <img src="docs/images/visa.svg" alt="" class="logo">
+                        <div class="displayradtitle">Visa</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "qris">
+                <label class ="radiolabelpay" for="qris">
+                    <div class="displaybox">
+                        <img src="docs/images/qris.svg" alt="" class="logo">
+                        <div class="displayradtitle">Qris Scan</div>
+                    </div>
+                </label>
+                <input class ="radioinput" type="radio" name="dietpref" id = "paypal">
+                <label class ="radiolabelpay" for="paypal">
+                    <div class="displaybox">
+                        <img src="docs/images/paypal.svg" alt="" class="logo">
+                        <div class="displayradtitle">Paypal</div>
+                    </div>
+                </label>
+            </div>
+        </form>
+        <div class="paymentcontainer">
+            <div class="paymentsection">
+                <div class="shoppingbox">
+                    <h3 class="title">Your Class</h3>  
+                    <div class="picked">
+                        <div class="pickedrow1">
+                            <div class="details">Level: Child-Friendly</div>
+                        </div>
+                        <div class="pickedrow1">
+                            <div class="details">Course: Basic Ingredients</div>
+                        </div>
+                        <div class="pickedrow1">
+                            <div class="details">Chef: Rosaria</div>
+                        </div>
+                        <div class="pickedrow1">
+                            <div class="details">Date: 25 January 2022</div>
+                        </div>
+                        <div class="pickedrow1">
+                            <div class="details">Time: 11:00 - 12:30 GMT+7</div>
+                        </div>
+                        <div class="pickedrow1">
+                            <div class="details">Duration: 1 hour and 30 minutes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="dividerline"></div>
+                <div class="pricebox">
+                    <img class="pickedcourse" src="docs/images/child4.png">
+                    <div class="pricebottom">
+                        <div class="pricerow">
+                            <h3 class="pricelist">Course Cost</h3>  
+                            <h3 class="pricing">: Rp 21.999</h3>
+                        </div>
+                        <div class="pricerow">
+                            <h3 class="pricelist">Tax</h3>  
+                            <h3 class="pricing">: Rp. 3.000</h3>
+                        </div>
+                        <div class="totalrow">
+                            <h3 class="totallist">TOTAL</h3>  
+                            <h3 class="totalcost">: Rp. 24.000</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="selectedbtn">
+            <a href='class_final.html'><button class="selected">CONFIRM ORDER</button></a>
+        </div>
+    </div>
     <footer>
         <div class="footers">
             <div class="footer1_container">
