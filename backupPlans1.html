@@ -6,13 +6,14 @@
     <title>Chef's Apron</title>
     <link rel="stylesheet" href="plans.css">
 </head>
-
+<!-- this file is coded by Maria Clarin -->
 <body>
     <header>
-        <div class="toplogos">
+<!-- created a class for the logo displays on the top of the page, includes the main logo and the profile icon logo -->        <div class="toplogos">
             <img class="calogo" src="docs/logo.svg">
             <a href='profile1.html'><img class="logoprofile" src="docs/images/profilepage.svg"></a>
         </div>
+        <!-- navigation bar setup for the page, linked to the corresponding active pages -->
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -23,17 +24,24 @@
             </ul>
         </nav>
         </div>
+        <!-- additional line to clean things up and seperate the main section with the header -->
         <div class = "line"> </div>
     </header>
+    <!-- this class holds the display of the entire main section -->
     <div class="mainsection">
+        <!-- the container and image load for the progress bar -->
         <div class=progressbar>
             <img src="docs/images/progressbar1.svg" alt="progress" class="progresspic">
         </div>
+         <!-- main title -->
         <h3 class="selecttitle">Select your diet</h3>
         <h4 class="changeanytime">Change anytime in account settings.</h4>
+        <!-- section title -->
         <h3 class="preferences">Your Preferences</h3>
+        <!-- HTML CSS radio buttons that would only accept 1 input -->
         <form action="">
             <div class ="radio">
+                <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "regular">
                 <label class ="radiolabel" for="regular">
                     <div class="displaybox">
@@ -41,6 +49,7 @@
                         <div class="displayradtitle">Regular</div>
                     </div>
                 </label>
+                <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "vegan">
                 <label class ="radiolabel" for="vegan">
                     <div class="displaybox">
@@ -48,6 +57,7 @@
                         <div class="displayradtitle">Vegan</div>
                     </div>
                 </label>
+                <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "pescatarian">
                 <label class ="radiolabel" for="pescatarian">
                     <div class="displaybox">
@@ -55,6 +65,7 @@
                         <div class="displayradtitle">Pescatarian</div>
                     </div>
                 </label>
+                <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "keto">
                 <label class ="radiolabel" for="keto">
                     <div class="displaybox">
@@ -64,9 +75,12 @@
                 </label>
             </div>
         </form>
+        <!-- section title -->
         <h3 class="preferences">Serving Size</h3>
+        <!-- HTML CSS radio buttons that would only accept 1 input -->
         <form action="">
             <div class ="radio">
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="servesize" id = "single">
                 <label class ="selection1" for="single">
                     <div class="displaybox">
@@ -74,6 +88,7 @@
                         <div class="selectiontext">Single</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="servesize" id = "duo">
                 <label class ="selection1" for="duo">
                     <div class="displaybox">
@@ -81,6 +96,7 @@
                         <div class="selectiontext">Duo</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="servesize" id = "family">
                 <label class ="selection1" for="family">
                     <div class="displaybox">
@@ -92,39 +108,47 @@
         </form>
         <h4 class="famnote">Note : a single package is equal to 1 serving, a duo package can serve 2 to 3 servings,</h4>
         <h4 class="famnotecont">and a family friendly package can serve 4 to 6 servings.</h4>
+        <!-- section title -->
         <h3 class="preferences">Meal Plans Per Week</h3>
+        <!-- HTML CSS radio buttons that would only accept 1 input -->
         <form action="">
             <div class ="radio">
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "two">
                 <label class ="select1" for="two">
                     <div class="displaybox">
                         <div class="selectionno">2</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "three">
                 <label class ="select1" for="three">
                     <div class="displaybox">
                         <div class="selectionno">3</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "four">
                 <label class ="select1" for="four">
                     <div class="displaybox">
                         <div class="selectionno">4</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "five">
                 <label class ="select1" for="five">
                     <div class="displaybox">
                         <div class="selectionno">5</div>
                     </div>
                 </label>
+                 <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "six">
                 <label class ="select1" for="six">
                     <div class="displaybox">
                         <div class="selectionno">6</div>
                     </div>
                 </label>
+                <!-- individual buttons that contains a container, image, and title inside the button  -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "seven">
                 <label class ="select1" for="seven">
                     <div class="displaybox">
@@ -135,7 +159,9 @@
         </form>
         <h4 class="famnote">Note : the numbers above represent the amount of days. You will receive 2 meal kits </h4>
         <h4 class="famnotecont">each day up to the amount of days you choose.</h4>
+        <!-- section title -->
         <h3 class="preferences">Days of Delivery</h3>
+        <!-- buttons that can take more than 1 input -->
         <div class ="select2">
             <button class ="selectionno2" id="mon">Mon</button>
             <button class ="selectionno2" id="tue">Tue</button>
@@ -147,41 +173,52 @@
         </div>
         <h4 class="famnote">Note : choose according to the number of your meal plans per week choice. Will apply to the upcoming week plans.</h4>
         <h4 class="famnotecont">This setting will be customizable and stored in your meal plans setting in your profile.</h4>
+        <!-- section title -->
         <h3 class="preferences">Avoid Me</h3>
+        <!-- buttons that can take more than 1 input -->
         <div class ="select2">
             <button class ="selectionno2" id="chicken"><img src="docs/images/chicken.svg" alt="" class="logo">Chicken</button>
             <button class ="selectionno2" id="beef"><img src="docs/images/beef.svg" alt="" class="logo">Beef</button>
             <button class ="selectionno2" id="pork"><img src="docs/images/pork.svg" alt="" class="logo">Pork</button>
             <button class ="selectionno2" id="nuts"><img src="docs/images/nuts.svg" alt="" class="logo">Nuts</button>
         </div>
+        <!-- buttons that can take more than 1 input -->
         <div class="select3">
             <button class ="selectionno2" id="seafood"><img src="docs/images/seafood.svg" alt="" class="logo">Seafood</button>
             <button class ="selectionno2" id="shellfish"><img src="docs/images/shellfish.svg" alt="" class="logo">Shellfish</button>
             <button class ="selectionno2" id="dairy"><img src="docs/images/dairy.svg" alt="" class="logo">Dairy</button>
         </div>
         <h4 class="famnote">Note : You can skip this option if you have no ingredients to avoid. </h4>
+        <!-- button to proceed to the next page -->
         <div class="selectedbtn">
             <a href='backupPlans2.html'><button class="selected">SELECT THIS PLAN</button></a>
         </div>
         <h4 class="curatedesc">You can curate your plans every week, or use this as default until next costumization.</h4>
     </div>
+    <!-- a class that holds the entire display of the bottom section -->
     <div class="bottomsection">
         <div class="discountarea">
+            <!-- discount box input, promo image and apply button -->
             <div class="discountbox">
                 <input class="discountinput" type="text" placeholder="Got a discount code?">
             </div>
             <img src="docs/images/upgradepremium.svg" alt="upgrade" class="discountupgrade">
         </div>
         <button class ="applybtn" >Apply</button>
+        <!-- advertisement pictures -->
         <div class="divider"></div>
         <img src="docs/images/ads1.svg" alt="adspic" class="ad1">
         <img src="docs/images/ads2.svg" alt="adspic" class="ad2">
     </div>
+    <!-- activating the javascript page -->
     <script src="plans1.js"></script>
     <footer>
+        <!-- footer setup of the page -->
         <div class="footers">
             <div class="footer1_container">
+                <!-- container class for all individual footer sections -->
                 <div class="footer1">Chef's Apron</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Blog</a><br>
                 <a href="#">Recipe Directory</a><br>
                 <a href="#">Discount</a><br>
@@ -189,18 +226,23 @@
                 <a href="#">Gift Codes</a>
             </div>
             <div class="footer1_container">
+                <!-- container class for all individual footer sections -->
                 <div class="footer1">Our Company</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Chips and Dips Co.</a><br>
                 <a href="#">Careers</a><br>
                 <a href="#">Achievements</a><br>
             </div>
             <div class="footer2_container">
+                <!-- container class for all individual footer sections -->
                 <div class="footer2">Contact Us</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Help Center</a><br>
                 <a href="#">Customer Service</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Partnership Inquiries</a><br>
             </div>
+            <!-- social media logo images included in the footer and if functional would lead to the socmed page -->
             <div class="footer3_container">
                 <a href='#'><img src="docs/images/instagram.png" alt="promo1" class="socialimgs"></a>
                 <a href='#'><img src="docs/images/facebook.png" alt="promo1" class="socialimgs"></a>

@@ -1,3 +1,5 @@
+// this file is coded by Maria Clarin
+// stating the buttons as different variables
 let btnMon = document.querySelector('#mon');
 let btnTue = document.querySelector('#tue');
 let btnWed = document.querySelector('#wed');
@@ -6,6 +8,7 @@ let btnFri = document.querySelector('#fri');
 let btnSat = document.querySelector('#sat');
 let btnSun = document.querySelector('#sun');
 
+// if the corresponding button is clicked, they will change color background
 btnMon.addEventListener('click', () => btnMon.style.backgroundColor = '#CAE6BB')
 btnTue.addEventListener('click', () => btnTue.style.backgroundColor = '#CAE6BB')
 btnWed.addEventListener('click', () => btnWed.style.backgroundColor = '#CAE6BB')
@@ -14,7 +17,7 @@ btnFri.addEventListener('click', () => btnFri.style.backgroundColor = '#CAE6BB')
 btnSat.addEventListener('click', () => btnSat.style.backgroundColor = '#CAE6BB')
 btnSun.addEventListener('click', () => btnSun.style.backgroundColor = '#CAE6BB')
 
-
+// stating the buttons as different variables
 let btnChicken = document.querySelector('#chicken');
 let btnBeef = document.querySelector('#beef');
 let btnPork = document.querySelector('#pork');
@@ -23,6 +26,7 @@ let btnSeafood = document.querySelector('#seafood');
 let btnDairy = document.querySelector('#dairy');
 let btnShellfish = document.querySelector('#shellfish');
 
+// if the corresponding button is clicked, they will change color background
 btnChicken.addEventListener('click', () => btnChicken.style.backgroundColor = '#CAE6BB')
 btnBeef.addEventListener('click', () => btnBeef.style.backgroundColor = '#CAE6BB')
 btnPork.addEventListener('click', () => btnPork.style.backgroundColor = '#CAE6BB')

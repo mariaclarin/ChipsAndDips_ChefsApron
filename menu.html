@@ -6,14 +6,15 @@
     <title>Chef's Apron</title>
     <link rel="stylesheet" href="plans.css">
 </head>
-
+<!-- this file is coded by Maria Clarin -->
 <body>
     <header>
+        <!-- created a class for the logo displays on the top of the page, includes the main logo and the profile icon logo -->
         <div class="toplogos">
             <img class="calogo" src="docs/logo.svg">
             <a href='profile1.html'><img class="logoprofile" src="docs/images/profilepage.svg"></a>
         </div>
-
+        <!-- navigation bar setup for the page, linked to the corresponding active pages -->
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -23,62 +24,76 @@
                 <li class="nav_list-item"><a href="about.html" class="nav_link">About</a></li>
             </ul>
         </nav>
-        </div>
+        <!-- additional line to clean things up and seperate the main section with the header -->
         <div class = "line"> </div>
     </header>
+    <!-- this class holds the display of the entire main section -->
     <div class="mainsection">
         <h3 class="selecttitle">Weekly Menu</h3>
         <h4 class="changeanytime">These are the menus available for the upcoming week. Due to change weekly.</h4>
+        <!-- this class act as the container for all the menu rows under it so that the display can be centered -->
         <div class="menusection">
             <h3 class="preferences">Regular Menu</h3>
+            <!-- this class acts as a container for all the pictures in order to flex the display -->
             <div class="menurow">
                 <img src="docs/images/chickenteriyaki.svg" alt="" class="itemrow">
                 <img src="docs/images/steakpotato.svg" alt="" class="itemrow">
                 <img src="docs/images/pastameatballs.svg" alt="" class="itemrow">
                 <img src="docs/images/laksa.svg" alt="" class="itemrow">
             </div>
+            <!-- this is a button that says see more, if fully functional, will take you to the specific menu page for the menu type -->
             <div class="moremenu">
                 <a href='#'><button class="addmenu">SEE MORE</button></a>
             </div>
             <h3 class="preferences">Vegan Menu</h3>
+            <!-- this class acts as a container for all the pictures in order to flex the display -->
             <div class="menurow">
                 <img src="docs/images/salad.svg" alt="" class="itemrow">
                 <img src="docs/images/avocadotomato.svg" alt="" class="itemrow">
                 <img src="docs/images/tofustir.svg" alt="" class="itemrow">
                 <img src="docs/images/eggplantroast.svg" alt="" class="itemrow">
             </div>
+             <!-- this is a button that says see more, if fully functional, will take you to the specific menu page for the menu type -->
             <div class="moremenu">
                 <a href='#'><button class="addmenu">SEE MORE</button></a>
             </div>
             <h3 class="preferences">Pescatarian Menu</h3>
+            <!-- this class acts as a container for all the pictures in order to flex the display -->
             <div class="menurow">
                 <img src="docs/images/pesca1.svg" alt="" class="itemrow">
                 <img src="docs/images/pesca2.svg" alt="" class="itemrow">
                 <img src="docs/images/pesca3.svg" alt="" class="itemrow">
                 <img src="docs/images/pesca4.svg" alt="" class="itemrow">
             </div>
+             <!-- this is a button that says see more, if fully functional, will take you to the specific menu page for the menu type -->
             <div class="moremenu">
                 <a href='menuPescatarian.html'><button class="addmenu">SEE MORE</button></a>
             </div>
             <h3 class="preferences">Keto Menu</h3>
+            <!-- this class acts as a container for all the pictures in order to flex the display -->
             <div class="menurow">
                 <img src="docs/images/keto1.svg" alt="" class="itemrow">
                 <img src="docs/images/keto2.svg" alt="" class="itemrow">
                 <img src="docs/images/keto3.svg" alt="" class="itemrow">
                 <img src="docs/images/keto4.svg" alt="" class="itemrow">
             </div>
+             <!-- this is a button that says see more, if fully functional, will take you to the specific menu page for the menu type -->
             <div class="moremenu">
                 <a href='#'><button class="addmenu">SEE MORE</button></a>
             </div>
         </div>
+        <!-- this is a button to go back to the previous page. -->
         <div class="selectedbtn">
             <a href='profile2.html'><button class="selected">Previous Page</button></a>
         </div>
     </div>
+    <!-- footer setup for the page -->
     <footer>
         <div class="footers">
+            <!-- container class for all individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Chef's Apron</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Blog</a><br>
                 <a href="#">Recipe Directory</a><br>
                 <a href="#">Discount</a><br>
@@ -87,17 +102,20 @@
             </div>
             <div class="footer1_container">
                 <div class="footer1">Our Company</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Chips and Dips Co.</a><br>
                 <a href="#">Careers</a><br>
                 <a href="#">Achievements</a><br>
             </div>
             <div class="footer2_container">
                 <div class="footer2">Contact Us</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Help Center</a><br>
                 <a href="#">Customer Service</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Partnership Inquiries</a><br>
             </div>
+            <!-- social media images included in footer that if functional, would lead to the soc med page -->
             <div class="footer3_container">
                 <a href='#'><img src="docs/images/instagram.png" alt="promo1" class="socialimgs"></a>
                 <a href='#'><img src="docs/images/facebook.png" alt="promo1" class="socialimgs"></a>

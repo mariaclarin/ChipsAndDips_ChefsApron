@@ -1,3 +1,5 @@
+// this page is coded by Maria Clarin
+// stating the buttons as different variables
 let btnMon = document.querySelector('#mon');
 let btnTue = document.querySelector('#tue');
 let btnWed = document.querySelector('#wed');
@@ -6,6 +8,7 @@ let btnFri = document.querySelector('#fri');
 let btnSat = document.querySelector('#sat');
 let btnSun = document.querySelector('#sun');
 
+// if the corresponding button is clicked, they will change color background
 btnMon.addEventListener('click', () => btnMon.style.backgroundColor = '#CAE6BB')
 btnTue.addEventListener('click', () => btnTue.style.backgroundColor = '#CAE6BB')
 btnWed.addEventListener('click', () => btnWed.style.backgroundColor = '#CAE6BB')

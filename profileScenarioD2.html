@@ -6,13 +6,15 @@
     <title>Chef's Apron</title>
     <link rel="stylesheet" href="profile.css">
 </head>
+<!-- this file is coded by Maria Clarin -->
 <body>
     <header>
+        <!-- created a class for the logo displays on the top of the page, includes the main logo and the profile icon logo -->
         <div class="toplogos">
             <img class="calogo" src="docs/logo.svg">
             <a href='profile1.html'><img class="logoprofile" src="docs/images/profilepage.svg"></a>
         </div>
-
+        <!-- navigation bar setup for the page, linked to the corresponding active pages -->  
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -23,18 +25,25 @@
             </ul>
         </nav>
         </div>
+        <!-- additional line to clean things up and seperate the main section with the header -->
         <div class = "line"> </div>
     </header>
+    <!-- this class holds the display of the entire main section -->
     <div class="mainsection">
+        <!-- the left bars of options for each profile pages  -->
         <div class="leftbar">
+            <!-- individual option image buttons with active links to the corresponding pages -->
             <div class="opt1">
                 <a href='profile2.html'><img src="docs/images/backbtn.svg" class="optimgsscen"></a>
             </div>
+            <!-- individual option image buttons with active links to the corresponding pages -->
             <div class="opt1">
                 <a href='profileScenarioD1.html'><img src="docs/images/revert.svg" class="optimgsscen"></a>
             </div>
         </div>
+        <!-- the right bar displays for each profile pages -->
         <div class="rightbar">
+            <!-- display information boxes -->
             <div class="opt2sel">
                 <div class="infoadd">
                     <h2 class="opt2title">Default Plan ✔</h2>
@@ -43,43 +52,51 @@
                     <h3 class="text2">Monday, Tuesday, Wednesday, Thursday, and Sunday.</h3>
                 </div>
             </div>
+            <!-- display information boxes that accepts new inputs-->
             <div class="opt2">
                 <div class="info">
                     <h2 class="opt2title">New Plan </h2>
                     <div class="extraline"></div>
                     <h3 class="text1">Choose your meal plan per week.</h3>
+                    <!-- radio buttons for the meal plan options -->
                     <form action="">
                         <div class ="radio">
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "two">
                             <label class ="select1" for="two">
                                 <div class="displaybox">
                                     <div class="selectionno">2</div>
                                 </div>
                             </label>
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "three">
                             <label class ="select1" for="three">
                                 <div class="displaybox">
                                     <div class="selectionno">3</div>
                                 </div>
                             </label>
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "four">
                             <label class ="select1" for="four">
                                 <div class="displaybox">
                                     <div class="selectionno">4</div>
                                 </div>
                             </label>
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "five">
                             <label class ="select1" for="five">
                                 <div class="displaybox">
                                     <div class="selectionno">5</div>
                                 </div>
                             </label>
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "six">
                             <label class ="select1" for="six">
                                 <div class="displaybox">
                                     <div class="selectionno">6</div>
                                 </div>
                             </label>
+                            <!-- individual option buttons -->
                             <input class ="radioinput" type="radio" name="dietpref" id = "seven">
                             <label class ="select1" for="seven">
                                 <div class="displaybox">
@@ -88,8 +105,10 @@
                             </label>
                         </div>
                     </form>
+                    <!-- days of delivery option button section-->
                     <h3 class="text1">Choose your days of delivery.</h3>
                     <div class ="select2">
+                        <!-- individual option buttons -->
                         <button class ="selectionno2" id="mon">Mon</button>
                         <button class ="selectionno2" id="tue">Tue</button>
                         <button class ="selectionno2" id="wed">Wed</button>
@@ -99,41 +118,51 @@
                         <button class ="selectionno2" id="sun">Sun</button>
                     </div>
                 </div>
+                <!-- the button that leads to the next page -->
                 <div class="refer3">
                     <a href="profileScenarioD3.html"><button class="referbtn">Save Plan</button></a>
                 </div>
             </div>
         </div>
     </div>
-
+    <!-- bottom section featuring advertisement images -->
     <div class="bottomsection">
         <img src="docs/images/ads1.svg" alt="adspic" class="ad3">
         <img src="docs/images/ads2.svg" alt="adspic" class="ad4">
     </div>
+    <!-- activating the javascript file -->
     <script src="profile.js"></script>
     <footer>
+        <!-- footer setup for the page -->
         <div class="footers">
+            <!-- container class for all individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Chef's Apron</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Blog</a><br>
                 <a href="#">Recipe Directory</a><br>
                 <a href="#">Discount</a><br>
                 <a href="#">Vouchers</a><br>
                 <a href="#">Gift Codes</a>
             </div>
+            <!-- container class for all individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Our Company</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Chips and Dips Co.</a><br>
                 <a href="#">Careers</a><br>
                 <a href="#">Achievements</a><br>
             </div>
+            <!-- container class for all individual footer sections -->
             <div class="footer2_container">
                 <div class="footer2">Contact Us</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Help Center</a><br>
                 <a href="#">Customer Service</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Partnership Inquiries</a><br>
             </div>
+            <!-- social media logo images included in the footer and if functional would lead to the socmed page -->
             <div class="footer3_container">
                 <a href='#'><img src="docs/images/instagram.png" alt="promo1" class="socialimgs"></a>
                 <a href='#'><img src="docs/images/facebook.png" alt="promo1" class="socialimgs"></a>

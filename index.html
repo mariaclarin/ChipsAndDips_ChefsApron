@@ -6,13 +6,15 @@
     <title>Chef's Apron</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<!-- this file is coded by Maria Clarin -->
 <body>
     <header>
+        <!-- a class for the logos to flex display (includes the main logo and the profile logo)-->
         <div class="toplogos">
             <img class="calogo" src="docs/logo.svg">
             <a href='profile1.html'><img class="logoprofile" src="docs/images/profilepage.svg"></a>
         </div>
-
+        <!-- the navigation bar setup for every page and the links to other pages -->
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -22,19 +24,22 @@
                 <li class="nav_list-item"><a href="about.html" class="nav_link">About</a></li>
             </ul>
         </nav>
-        </div>
+        <!-- added an extra line to divide header and the main section -->
         <div class = "line"> </div>
     </header>
+    <!-- created a new class for the main section. Then just loaded the images for the promo sections and linking an active link so they can click on the image buttons -->
     <div class="promos">
         <a href='backupPlans1.html'><img src="docs/images/Promo1.png" alt="promo1" class="promoimgs"></a>
         <a href='about.html'><img src="docs/images/Promo2.png" alt="promo1" class="promoimgs"></a>
         <a href='classes.html'><img src="docs/images/Promo3.png" alt="promo1" class="promoimgs"></a>
     </div>
-
+    <!-- footer class for the page, used flex to display it. -->
     <footer>
-        <div class="footers">
+        <div class="footers"> 
+            <!-- creating nested class inside nested class to act as a container for individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Chef's Apron</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Blog</a><br>
                 <a href="#">Recipe Directory</a><br>
                 <a href="#">Discount</a><br>
@@ -43,17 +48,20 @@
             </div>
             <div class="footer1_container">
                 <div class="footer1">Our Company</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Chips and Dips Co.</a><br>
                 <a href="#">Careers</a><br>
                 <a href="#">Achievements</a><br>
             </div>
             <div class="footer2_container">
                 <div class="footer2">Contact Us</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Help Center</a><br>
                 <a href="#">Customer Service</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Partnership Inquiries</a><br>
             </div>
+            <!-- in the footer, i also included social media logos as images. -->
             <div class="footer3_container">
                 <a href='#'><img src="docs/images/instagram.png" alt="promo1" class="socialimgs"></a>
                 <a href='#'><img src="docs/images/facebook.png" alt="promo1" class="socialimgs"></a>

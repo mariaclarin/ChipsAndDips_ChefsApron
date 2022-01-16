@@ -6,14 +6,15 @@
     <title>Chef's Apron</title>
     <link rel="stylesheet" href="plans.css">
 </head>
-
+<!-- this file is coded by Maria Clarin -->
 <body>
     <header>
+         <!-- a class for the logos to flex display (includes the main logo and the profile logo)-->
         <div class="toplogos">
             <img class="calogo" src="docs/logo.svg">
             <a href='profile1.html'><img class="logoprofile" src="docs/images/profilepage.svg"></a>
         </div>
-
+        <!-- the navigation bar setup for every page and the links to other pages -->   
         <nav class="nav">
             <ul class="nav_list">
                 <li class="nav_list-item"><a href="index.html" class="nav_link">Home</a></li>
@@ -23,17 +24,22 @@
                 <li class="nav_list-item"><a href="about.html" class="nav_link">About</a></li>
             </ul>
         </nav>
-        </div>
+        <!-- additional line to clean things up and seperate the main section with the header -->
         <div class = "line"> </div>
     </header>
+    <!-- this class holds the display of the entire main section -->
     <div class="mainsection">
+        <!-- the container and image load for the progress bar -->
         <div class=progressbar>
             <img src="docs/images/progressbar4.svg" alt="progress" class="progresspic">
         </div>
+        <!-- main title -->
         <h3 class="selecttitle">Check Out</h3>
         <h4 class="changeanytime">Pick a payment option and complete your payment to confirm your order.</h4>
+        <!-- radio buttons for the payment option selection, only accepts 1 input -->
         <form action="">
             <div class ="radiopay">
+                <!-- individual buttons containing the container, image logo and the label -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "master">
                 <label class ="radiolabelpay" for="master">
                     <div class="displaybox">
@@ -41,6 +47,7 @@
                         <div class="displayradtitle">Mastercard</div>
                     </div>
                 </label>
+                <!-- individual buttons containing the container, image logo and the label -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "visa">
                 <label class ="radiolabelpay" for="visa">
                     <div class="displaybox">
@@ -48,6 +55,7 @@
                         <div class="displayradtitle">Visa</div>
                     </div>
                 </label>
+                <!-- individual buttons containing the container, image logo and the label -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "qris">
                 <label class ="radiolabelpay" for="qris">
                     <div class="displaybox">
@@ -55,6 +63,7 @@
                         <div class="displayradtitle">Qris Scan</div>
                     </div>
                 </label>
+                <!-- individual buttons containing the container, image logo and the label -->
                 <input class ="radioinput" type="radio" name="dietpref" id = "paypal">
                 <label class ="radiolabelpay" for="paypal">
                     <div class="displaybox">
@@ -64,36 +73,46 @@
                 </label>
             </div>
         </form>
+        <!-- payment total and pricing display container -->
         <div class="paymentcontainer">
             <div class="paymentsection">
+                <!-- picked items display -->
                 <div class="shoppingbox">
                     <h3 class="pickedtitle">Your Picks</h3>  
                     <div class="picked">
+                        <!-- display specified as buttons-->
                         <div class="pickedrow1">
                             <button class="pickeditem">VEGAN</button>
                             <button class="pickeditem">SINGLE</button>
                             <button class="pickeditem">3X PER WEEK</button>
                         </div>
+                        <!-- display specified as buttons-->
                         <div class="pickedrow2">
                             <button class="pickeditem">NO NUTS </button>
                             <button class="pickeditem">NO DAIRY </button>
                         </div>
                     </div>
                 </div>
+                <!-- line dividing the items display and pricing display -->
                 <div class="dividerline"></div>
+                <!-- pricing display container -->
                 <div class="pricebox">
+                    <!-- pricing information per row -->
                     <div class="pricerow">
                         <h3 class="pricelist">PRICE PER SERVING</h3>  
                         <h3 class="pricing">: Rp 25.900 x 6</h3>
                     </div>
+                    <!-- pricing information per row -->
                     <div class="pricerow">
                         <h3 class="pricelist">PACKAGING COST</h3>  
                         <h3 class="pricing">: Rp 10.000</h3>
                     </div>
+                    <!-- pricing information per row -->
                     <div class="pricerow">
                         <h3 class="pricelist">SHIPPING FEE</h3>  
                         <h3 class="pricing">: Rp. 13.000</h3>
                     </div>
+                    <!-- total information per row -->
                     <div class="totalrow">
                         <h3 class="totallist">TOTAL</h3>  
                         <h3 class="totalcost">: Rp. 178.400</h3>
@@ -101,38 +120,47 @@
                 </div>
             </div>
         </div>
+        <!-- a button that leads to the next page -->
         <div class="selectedbtn">
             <a href='plans5.html'><button class="selected">CONFIRM ORDER</button></a>
         </div>
     </div>
-
+    <!-- bottom section that features advertisement pictures -->
     <div class="bottomsection">
         <img src="docs/images/ads1.svg" alt="adspic" class="ad3">
         <img src="docs/images/ads2.svg" alt="adspic" class="ad4">
     </div>
+    <!-- footer setup for the page -->
     <footer>
         <div class="footers">
+            <!-- container class for all individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Chef's Apron</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Blog</a><br>
                 <a href="#">Recipe Directory</a><br>
                 <a href="#">Discount</a><br>
                 <a href="#">Vouchers</a><br>
                 <a href="#">Gift Codes</a>
             </div>
+            <!-- container class for all individual footer sections -->
             <div class="footer1_container">
                 <div class="footer1">Our Company</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Chips and Dips Co.</a><br>
                 <a href="#">Careers</a><br>
                 <a href="#">Achievements</a><br>
             </div>
+            <!-- container class for all individual footer sections -->
             <div class="footer2_container">
                 <div class="footer2">Contact Us</div>
+                <!-- if functional, these link text will bring you to the specific pages -->
                 <a href="#">Help Center</a><br>
                 <a href="#">Customer Service</a><br>
                 <a href="#">FAQ</a><br>
                 <a href="#">Partnership Inquiries</a><br>
             </div>
+            <!-- social media logo images included in the footer and if functional would lead to the socmed page -->
             <div class="footer3_container">
                 <a href='#'><img src="docs/images/instagram.png" alt="promo1" class="socialimgs"></a>
                 <a href='#'><img src="docs/images/facebook.png" alt="promo1" class="socialimgs"></a>
