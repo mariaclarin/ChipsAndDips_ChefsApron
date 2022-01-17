@@ -149,6 +149,11 @@ footer{
 
 .breakfast{
     width: 330px;
+    height: 302.5px
+}
+
+.pancake{
+    width: 330px;
     height: 302.5px;
     display: block;
     margin-left: auto;
