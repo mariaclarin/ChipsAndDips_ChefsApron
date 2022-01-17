@@ -1,6 +1,7 @@
 <h1 align="center">Chef's Apron</h1> 
 Live Page Link : https://mariaclarin.github.io/Final-Project-L1AC-ChipsAndDips/ <br />
-Video Demo Link : https://drive.google.com/file/d/1bxb_L8r1C8kNlq49shbbvvWELP7Tv_2p/view?usp=sharing <br />
+Video Demo Link (GDrive) : https://drive.google.com/file/d/1bxb_L8r1C8kNlq49shbbvvWELP7Tv_2p/view?usp=sharing <br />
+Video Demo Link (Youtube-Better Quality) : https://youtu.be/W6n8zStsoYc <br />
 
 #
 * Class name : L1AC
