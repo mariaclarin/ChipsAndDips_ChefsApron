@@ -149,7 +149,11 @@ footer{
 
 .breakfast{
     width: 330px;
-    height: 302.5px
+    height: 302.5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 90px 20px 0px 30px;
 }
 
 .flex-container{
@@ -171,4 +175,80 @@ footer{
     padding: 6% 2% 5% 2%;
     font-size: 25px;
     letter-spacing: 2px;
+}
+
+.containers{
+    background-color: #F8F8F8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.flex-containers{
+    display: flex;
+    text-align: center;
+}
+
+.flex-containers > div {
+    background-color: #F8F8F8;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.infos{
+    display: flex;
+    text-align: center;
+}
+
+.infos > div {
+    background-color: #F8F8F8;
+}
+
+.text1, .text2, .ingredients, .serve{
+    color:#4b4947;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 5px 7px 1px 5px;
+    border: 20px solid #F8F8F8;
+}
+
+.ingredients, .serve{
+    list-style-type: decimal;
+}
+
+.info{
+    border: 10px solid #F8F8F8;
+}
+
+.text1{
+    text-align: center;
+    font-size:  30px;
+}
+
+.text2{
+    text-align: center;
+    font-size:  15px;
+}
+
+.title{
+    padding-bottom: 5px;
+}
+
+li{
+    padding-top: 2px;
+    padding-left: 5px
+}
+
+.serve{
+    width:250px
+}
+
+.methodpos{
+    border: 20px solid #F8F8F8;
+    list-style-type: decimal;
+    color:#4b4947;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    padding: 5px 7px 1px 5px;
 }
