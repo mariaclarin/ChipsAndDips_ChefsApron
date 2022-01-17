@@ -127,13 +127,48 @@ footer{
     letter-spacing: 2px
 }
 
-.recipe{
+.recipes{
     padding: 0.5% 3% 0.5% 3%;
     width: 360px;
     height: 448.36px
 }
 
+.recipe{
+    display: inline;
+    border: 6px solid #71706e;
+    border-radius: 7px;
+    margin: 15px 0px 15px 0px;
+    width: 330px;
+    height: 411px
+}
+
 .Row1, .Row2, .Row3, .Row4{
     text-align: center;
     padding: 2% 2.5% 3% 2.5%
+}
+
+.breakfast{
+    width: 330px;
+    height: 302.5px
+}
+
+.flex-container{
+    display: flex;
+    text-align: center;
+}
+
+.flex-container > div {
+    background-color: #C6BCB3;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0%;
+}
+
+.recipename{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4b4947;
+    text-align: center;
+    padding: 6% 2% 5% 2%;
+    font-size: 25px;
+    letter-spacing: 2px;
 }
