@@ -1,6 +1,6 @@
 <h1 align="center">Chef's Apron</h1> 
 Live Link
-https://mariaclarin.github.io/ChipsAndDips_ChefsApron/
+https://mariaclarin.github.io/Final-Project-L1AC-ChipsAndDips/
 
 #
 * Class name : L1AC
