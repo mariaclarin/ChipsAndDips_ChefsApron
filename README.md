@@ -34,7 +34,9 @@ https://mariaclarin.github.io/Final-Project-L1AC-ChipsAndDips/
 * profile.css : css file for profile.html
 * profile.js : javascript file for profile pages
 * recipes.html : recipe page
-* style_recipes.css : css file for recipes.html
+* recipes_breakfast.html : second recipe page for breakfast
+* recipes_breakfast_pancake.html : third recipe page for pancake
+* style_recipes.css : css file for recipes page (recipes.html, recipes_breakfast.html, recipes_breakfast_pancake.html)
 * classes.html : initial class page and also advance levelled page
 * classes_beg.html : beginner levelled class page
 * classes_inter.html : intermediate levelled class page
